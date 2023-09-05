@@ -1,6 +1,6 @@
 # gitRandomQuote
 
-web application
+ГЕНЕРАТОР СЛУЧАЙНЫХ ЦИТАТ
 
 Всем привет!
 
