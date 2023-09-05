@@ -1,0 +1,86 @@
+@font-face {
+  font-family: quote;
+  src: url(/fonts/Quote-text.ttf);
+}
+
+@font-face {
+  font-family: author;
+  src: url(/fonts/author.ttf);
+}
+
+@font-face {
+  font-family: title;
+  src: url(/fonts/title.ttf);
+}
+
+@font-face {
+  font-family: type-mashine;
+  src: url(/fonts/type-mashine.ttf);
+}
+
+body {
+  background-image: url(/img/background.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper {
+  margin: 0 100px;
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  margin-top: 100px;
+  text-align: center;
+  font-family: title;
+  font-size: 60px;
+  font-weight: 200;
+  color: rgb(91, 13, 13);
+}
+
+.quote__text {
+  font-family: type-mashine;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: rgba(6, 6, 6, 0.8);
+}
+
+.quote__author {
+  width: 350px;
+  margin-top: 20px;
+  font-family: author;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  right: 100px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: title;
+  font-weight: 200;
+  font-size: 32px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  color: rgb(91, 13, 13);
+}
+
+.btn:hover {
+  text-shadow: 1px 5px 7px rgba(128, 55, 55, 0.52);
+}
+
+.btn:active {
+  text-shadow: 2px 4px 12px rgba(52, 22, 22, 0.97);
+}
+
+.btn-active {
+  padding-top: 200px;
+}
