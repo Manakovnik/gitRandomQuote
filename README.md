@@ -13,3 +13,4 @@
 2. сделан адоптив под разные размеры экрана, в том числе под мобильное устройство.
 3. изменен шрифт текста цитаты
 
+![screenShot](https://github.com/Manakovnik/gitRandomQuote/blob/main/ScreenShot.jpg)
